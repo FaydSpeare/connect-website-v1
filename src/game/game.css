@@ -1,0 +1,201 @@
+.boardContainer {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 70px;
+    background-color: sandybrown;
+}
+
+.playerContainer {
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 5px;
+    background-color: white;
+    display: inline-block;
+}
+
+#turn {
+    background-color: mediumpurple;
+    border: 2px solid white
+}
+
+.gameOptionsContainer {
+    text-align: center;
+}
+
+.innerGameOptionsContainer {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 40px;
+    background-color: sandybrown;
+}
+
+.gamePageContainer {
+    background-color: steelblue;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    overflow-y: hidden;
+}
+
+.gameComponentContainer {
+    padding: 20px;
+    text-align: center;
+}
+
+.playerComponentContainer {
+    padding: 10px;
+    text-align: center;
+    font-family: MS PGothic, serif;
+    font-size: 14px;
+}
+
+.tile {
+    border: 2px solid black;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1px;
+    border-radius: 10px;
+}
+
+.row {
+    text-align: center;
+}
+
+.timeLimitContainer {
+    //border: 1px solid black;
+    vertical-align: center;
+}
+
+.timeLimitLabel {
+    font-family: MS PGothic, serif;
+    font-size: 30px;
+    height: 50px;
+    display: inline-block;
+}
+
+.timeLimitButton {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+}
+
+.timeLimitButton:focus {
+    outline: none;
+}
+
+.aiButton {
+    width: 70px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+}
+
+.aiButton:focus {
+    outline: none;
+}
+
+#selectedLimitButton.timeLimitButton {
+    background-color: lightgreen;
+}
+
+.generateGameButton {
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 7px white;
+    border: 1px solid black;
+    background-color: lightgreen;
+    margin: 15px 10px;
+    font-size: 17px;
+}
+
+.generateGameButton:active {
+    transform: translateY(4px);
+    box-shadow: 0 3px black;
+}
+
+.generateGameButton:focus {
+    outline: none;
+}
+
+.generatedGameLabel {
+    font-family: MS PGothic, serif;
+    font-size: 30px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.okGameButton {
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 7px white;
+    border: 1px solid black;
+    background-color: lightgreen;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.okGameButton:active {
+    transform: translateY(4px);
+    box-shadow: 0 3px black;
+}
+
+.okGameButton:focus {
+    outline: none;
+}
+
+.liveChatContainer {
+    margin: 10px 50px;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 700px;
+    width: 400px;
+}
+
+.sideBySideDiv {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+
+.chatInputContainer {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.chatLinesContainer {
+    height: 600px;
+    width: 400px;
+    overflow-wrap: break-word;
+    text-align: left;
+    overflow-y: scroll;
+    white-space: pre-wrap;
+}
+
+.chatInput {
+    min-width: 350px;
+    min-height: 50px;
+    max-width: 350px;
+    max-height: 50px;
+}
+
+.miniSpectateContainer {
+    padding-top: 100px;
+}

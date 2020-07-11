@@ -1,0 +1,58 @@
+.routeLink {
+    margin: 20px 40px 20px 40px;
+    text-decoration: underline;
+    vertical-align: center;
+    display: inline-block;
+    color: white;
+    font-family: MS PGothic, serif;
+    float: right;
+    font-size: 16px;
+}
+
+.logoutButton {
+    padding: 5px 10px;
+    margin: 15px 40px;
+    vertical-align: center;
+    border: 1px solid coral;
+    display: inline-block;
+    color: white;
+    font-family: MS PGothic, serif;
+    float: right;
+    border-radius: 20px;
+    background-color: black;
+    font-size: 16px;
+}
+
+.logoutButton:focus {
+    outline: none;
+}
+
+.logoutButton:active {
+    background-color: coral;
+}
+
+.navLabel {
+    display: inline-block;
+    color: white;
+    font-family: MS PGothic, serif;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.linkContainer {
+    height: 60px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+}
+
+.userSearchForm {
+    margin: 20px 40px 20px 40px;
+    text-decoration: underline;
+    vertical-align: center;
+    display: inline-block;
+    color: white;
+    font-family: MS PGothic, serif;
+    float: right;
+    font-size: 16px;
+}

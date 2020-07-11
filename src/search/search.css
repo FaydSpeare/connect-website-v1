@@ -1,0 +1,9 @@
+.searchPageContainer {
+    width: 100%;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.searchBarContainer {
+    display: inline-block;
+}

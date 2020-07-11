@@ -1,0 +1,99 @@
+.login-box {
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 50px;
+    background-color: sandybrown;
+}
+
+.loginErrorBox {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lightcoral
+}
+
+.loginErrorLabel {
+    font-family: MS PGothic, serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+
+.loginPageContainer {
+    text-align: center;
+    background-color: steelblue;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.loginLabel {
+    font-family: MS PGothic, serif;
+    font-size: 35px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.loginInput:focus {
+    outline: none;
+    border: 2px solid white;
+}
+
+.loginInput {
+    width: 250px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 17px;
+    text-align: center;
+}
+
+.loginButton {
+    width: 250px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 15px;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgreen;
+    box-shadow: 0 7px white;
+}
+
+.loginButton:focus, .loginButtonPushed:focus {
+    outline: none;
+}
+
+.loginButton:active {
+    box-shadow: 0 3px black;
+    transform: translateY(4px);
+}
+
+.loginButtonPushed {
+    width: 250px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 15px;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 3px black;
+    transform: translateY(4px);
+    background-color: lightgreen;
+}
+
+.checkBoxContainer {
+    text-align: left;
+}
+
+

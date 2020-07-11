@@ -1,0 +1,153 @@
+.homePageContainer {
+    text-align: center;
+    background-color: steelblue;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+}
+
+.userProfileContainer {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: white;
+    margin: 20px;
+    width: 220px;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.profilePictureContainer {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: white;
+    margin: 20px;
+    width: 240px;
+
+    height: 308px;
+}
+
+.welcomeContainer {
+    font-family: MS PGothic, serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px black,
+                2px 2px black,
+                3px 3px black,
+                4px 4px black,
+                5px 5px black;
+    display: inline-block;
+    //border: 1px solid black;
+}
+
+.fileLabel {
+    padding: 5px 50px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+.fileInput {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.imageBox {
+    height: 225px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.loader {
+    position: absolute;
+    top: calc(50% - 4em);
+    left: calc(50% - 4em);
+    width: 6em;
+    height: 6em;
+    border: 1.1em solid rgba(0, 0, 0, 0.2);
+    border-left: 1.1em solid #000000;
+    border-radius: 50%;
+    animation: load8 1.1s infinite linear;
+    transition: opacity 0.3s;
+}
+
+.loader--hide {
+    opacity: 0;
+}
+
+@keyframes load8 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.dragging {
+    border: dashed grey 2px;
+    padding: 20px;
+}
+
+.notDragging {
+    border: none;
+    padding: 20px;
+}
+
+.commentSectionContainer {
+    margin: 20px;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.commentsContainer {
+    display: inline-block;
+    background-color: aliceblue;
+    width: 600px;
+    height: 434px;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+
+.commentContainer {
+    background-color: white;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: left;
+    padding: 0 10px;
+    height: auto;
+    overflow-wrap: break-word;
+}
+
+.commentInput {
+    width: 600px;
+    height: 25px;
+}
+
+.sideBySideDiv {
+    display: inline-block;
+    //border: 1px solid black;
+}
+
+.scrollContent {
+    border: 1px solid black;
+    height: 400px;
+}
+
+.centerPastGame {
+    text-align: center;
+}
+
+.pastGameContainer {
+    width: 600px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+}
