@@ -11,8 +11,8 @@
     "react-animations": "^1.0.0",
     "react-dom": "^16.13.1",
     "react-native-sms": "^1.11.0",
-    "react-router": "^5.1.2",
-    "react-router-dom": "^5.1.2",
+    "react-router": "^7.5.2",
+    "react-router-dom": "^7.5.2",
     "react-scripts": "3.4.1",
     "styled-components": "^5.0.1"
   },
